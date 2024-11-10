@@ -28,7 +28,7 @@ class BlangkisApp extends StatelessWidget {
         '/dashboard': (context) => DashboardScreen(),
         '/products': (context) => ProductsScreen(),
         '/payment': (context) => PaymentScreen(
-            totalPrice: 0.0), // Ganti dari totalHarga menjadi totalPrice
+            totalPrice: 0.0), // Ganti dari totalHarga menjadi totalPriice
         '/profile': (context) => ProfileScreen(),
       },
     );
